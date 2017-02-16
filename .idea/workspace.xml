@@ -2,7 +2,285 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03dd6946-6133-4181-a076-8e9e22e92770" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/attachment/fileTypeImages/icon_chm.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/attachment/fileTypeImages/icon_default.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/attachment/fileTypeImages/icon_doc.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/attachment/fileTypeImages/icon_exe.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/attachment/fileTypeImages/icon_jpg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/attachment/fileTypeImages/icon_mp3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/attachment/fileTypeImages/icon_mv.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/attachment/fileTypeImages/icon_pdf.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/attachment/fileTypeImages/icon_ppt.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/attachment/fileTypeImages/icon_psd.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/attachment/fileTypeImages/icon_rar.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/attachment/fileTypeImages/icon_txt.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/attachment/fileTypeImages/icon_xls.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/attachment/images/alignicon.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/attachment/images/alignicon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/attachment/images/bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/attachment/images/file-icons.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/attachment/images/file-icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/attachment/images/icons.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/attachment/images/icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/attachment/images/image.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/attachment/images/progress.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/attachment/images/success.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/attachment/images/success.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/background/images/bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/background/images/success.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/charts/images/charts0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/charts/images/charts1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/charts/images/charts2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/charts/images/charts3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/charts/images/charts4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/charts/images/charts5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/emotion/images/0.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/emotion/images/bface.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/emotion/images/cface.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/emotion/images/fface.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/emotion/images/jxface2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/emotion/images/neweditor-tab-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/emotion/images/tface.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/emotion/images/wface.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/emotion/images/yface.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/image/images/alignicon.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/image/images/bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/image/images/icons.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/image/images/icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/image/images/image.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/image/images/progress.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/image/images/success.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/image/images/success.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/scrawl/images/addimg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/scrawl/images/brush.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/scrawl/images/delimg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/scrawl/images/delimgH.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/scrawl/images/empty.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/scrawl/images/emptyH.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/scrawl/images/eraser.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/scrawl/images/redo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/scrawl/images/redoH.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/scrawl/images/scale.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/scrawl/images/scaleH.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/scrawl/images/size.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/scrawl/images/undo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/scrawl/images/undoH.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/table/dragicon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/template/images/bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/template/images/pre0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/template/images/pre1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/template/images/pre2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/template/images/pre3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/template/images/pre4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/video/images/bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/video/images/center_focus.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/video/images/file-icons.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/video/images/file-icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/video/images/icons.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/video/images/icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/video/images/image.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/video/images/left_focus.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/video/images/none_focus.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/video/images/progress.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/video/images/right_focus.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/video/images/success.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/video/images/success.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/wordimage/fClipboard_ueditor.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/wordimage/imageUploader.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/lang/en/images/addimage.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/lang/en/images/alldeletebtnhoverskin.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/lang/en/images/alldeletebtnupskin.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/lang/en/images/background.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/lang/en/images/button.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/lang/en/images/copy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/lang/en/images/deletedisable.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/lang/en/images/deleteenable.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/lang/en/images/listbackground.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/lang/en/images/localimage.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/lang/en/images/music.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/lang/en/images/rotateleftdisable.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/lang/en/images/rotateleftenable.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/lang/en/images/rotaterightdisable.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/lang/en/images/rotaterightenable.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/lang/en/images/upload.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/lang/zh-cn/images/copy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/lang/zh-cn/images/localimage.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/lang/zh-cn/images/music.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/lang/zh-cn/images/upload.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/themes/default/images/anchor.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/themes/default/images/arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/themes/default/images/arrow_down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/themes/default/images/arrow_up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/themes/default/images/button-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/themes/default/images/cancelbutton.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/themes/default/images/charts.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/themes/default/images/cursor_h.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/themes/default/images/cursor_h.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/themes/default/images/cursor_v.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/themes/default/images/cursor_v.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/themes/default/images/dialog-title-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/themes/default/images/filescan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/themes/default/images/highlighted.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/themes/default/images/icons-all.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/themes/default/images/icons.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/themes/default/images/icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/themes/default/images/loaderror.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/themes/default/images/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/themes/default/images/lock.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/themes/default/images/neweditor-tab-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/themes/default/images/pagebreak.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/themes/default/images/scale.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/themes/default/images/sortable.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/themes/default/images/spacer.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/themes/default/images/sparator_v.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/themes/default/images/table-cell-align.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/themes/default/images/tangram-colorpicker.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/themes/default/images/toolbar_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/themes/default/images/unhighlighted.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/themes/default/images/upload.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/themes/default/images/videologo.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/themes/default/images/word.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/themes/default/images/wordpaste.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/third-party/snapscreen/UEditorSnapscreen.exe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/third-party/video-js/font/vjs.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/third-party/video-js/font/vjs.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/third-party/video-js/font/vjs.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/third-party/video-js/video-js.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/third-party/webuploader/Uploader.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/third-party/zeroclipboard/ZeroClipboard.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baidu_ueditor_ueditor_java_1_4_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nginx.cong" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/config.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/anchor/anchor.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/attachment/attachment.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/attachment/attachment.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/attachment/attachment.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/background/background.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/background/background.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/background/background.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/charts/chart.config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/charts/charts.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/charts/charts.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/charts/charts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/emotion/emotion.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/emotion/emotion.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/emotion/emotion.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/gmap/gmap.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/help/help.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/help/help.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/help/help.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/image/image.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/image/image.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/image/image.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/insertframe/insertframe.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/internal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/link/link.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/map/map.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/map/show.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/music/music.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/music/music.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/music/music.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/preview/preview.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/scrawl/scrawl.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/scrawl/scrawl.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/scrawl/scrawl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/searchreplace/searchreplace.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/searchreplace/searchreplace.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/snapscreen/snapscreen.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/spechars/spechars.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/spechars/spechars.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/table/edittable.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/table/edittable.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/table/edittable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/table/edittd.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/table/edittip.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/template/config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/template/template.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/template/template.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/template/template.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/video/video.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/video/video.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/video/video.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/webapp/webapp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/wordimage/tangram.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/wordimage/wordimage.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/dialogs/wordimage/wordimage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/lang/en/en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/lang/zh-cn/zh-cn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/themes/default/css/ueditor.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/themes/default/css/ueditor.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/themes/default/dialogbase.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/themes/iframe.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/third-party/SyntaxHighlighter/shCore.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/third-party/SyntaxHighlighter/shCoreDefault.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/third-party/codemirror/codemirror.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/third-party/codemirror/codemirror.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/third-party/highcharts/adapters/mootools-adapter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/third-party/highcharts/adapters/mootools-adapter.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/third-party/highcharts/adapters/prototype-adapter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/third-party/highcharts/adapters/prototype-adapter.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/third-party/highcharts/adapters/standalone-framework.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/third-party/highcharts/adapters/standalone-framework.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/third-party/highcharts/highcharts-more.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/third-party/highcharts/highcharts-more.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/third-party/highcharts/highcharts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/third-party/highcharts/highcharts.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/third-party/highcharts/modules/annotations.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/third-party/highcharts/modules/annotations.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/third-party/highcharts/modules/canvas-tools.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/third-party/highcharts/modules/canvas-tools.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/third-party/highcharts/modules/data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/third-party/highcharts/modules/data.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/third-party/highcharts/modules/drilldown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/third-party/highcharts/modules/drilldown.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/third-party/highcharts/modules/exporting.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/third-party/highcharts/modules/exporting.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/third-party/highcharts/modules/funnel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/third-party/highcharts/modules/funnel.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/third-party/highcharts/modules/heatmap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/third-party/highcharts/modules/heatmap.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/third-party/highcharts/modules/map.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/third-party/highcharts/modules/map.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/third-party/highcharts/modules/no-data-to-display.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/third-party/highcharts/modules/no-data-to-display.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/third-party/highcharts/themes/dark-blue.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/third-party/highcharts/themes/dark-green.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/third-party/highcharts/themes/gray.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/third-party/highcharts/themes/grid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/third-party/highcharts/themes/skies.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/third-party/jquery-1.10.2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/third-party/jquery-1.10.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/third-party/jquery-1.10.2.min.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/third-party/video-js/font/vjs.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/third-party/video-js/video-js.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/third-party/video-js/video-js.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/third-party/video-js/video.dev.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/third-party/video-js/video.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/third-party/webuploader/webuploader.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/third-party/webuploader/webuploader.custom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/third-party/webuploader/webuploader.custom.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/third-party/webuploader/webuploader.flashonly.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/third-party/webuploader/webuploader.flashonly.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/third-party/webuploader/webuploader.html5only.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/third-party/webuploader/webuploader.html5only.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/third-party/webuploader/webuploader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/third-party/webuploader/webuploader.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/third-party/webuploader/webuploader.withoutimage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/third-party/webuploader/webuploader.withoutimage.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/third-party/xss.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/third-party/zeroclipboard/ZeroClipboard.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/third-party/zeroclipboard/ZeroClipboard.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/ueditor.all.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/ueditor.all.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/ueditor.config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/ueditor.parse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/UEditor/ueditor.parse.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/blog/controller/UserController.class" afterPath="$PROJECT_DIR$/target/classes/com/blog/controller/UserController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/blog/util/JsonUtil.class" afterPath="$PROJECT_DIR$/target/classes/com/blog/util/JsonUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springBootBlog.iml" afterPath="$PROJECT_DIR$/springBootBlog.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/application.properties" afterPath="$PROJECT_DIR$/target/classes/application.properties" />
     </list>
     <ignored path="springBootBlog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,7 +302,7 @@
     <favorites_list name="springBootBlog" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -54,7 +332,6 @@
         <option value="$PROJECT_DIR$/src/test/java/com/blog/service/TestUserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/Application.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/blog/repository/Test.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/blog/controller/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/blog/controller/Login.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/blog/advice/UserDefinedExceptionAdvice.java" />
@@ -63,7 +340,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/blog/error/UserDefinedException.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/blog/advice/UserDefinedExceptionHandler.java" />
         <option value="$PROJECT_DIR$/src/main/resources/static/test.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/blog/Application.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/blog/controller/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/blog/model/User.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/blog/test/TestJsonUtil.java" />
@@ -73,7 +349,6 @@
         <option value="$PROJECT_DIR$/src/test/java/com/blog/test/TestJwt.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/blog/util/JwtUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/blog/model/Blog.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/blog/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/blog/test/TestUserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/blog/repository/BlogRepository.java" />
@@ -85,6 +360,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/blog/controller/BlogController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/blog/controller/UserController.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/blog/Application.java" />
+        <option value="$PROJECT_DIR$/nginx.cong" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/UEditor/ueditor.config.js" />
       </list>
     </option>
   </component>
@@ -132,9 +412,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane />
-      </pane>
       <pane id="Scope">
         <subPane subId="Production" />
         <subPane subId="Project Files">
@@ -149,7 +426,19 @@
             </PATH_ELEMENT>
           </PATH>
         </subPane>
+        <subPane subId="Tests">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
       </pane>
+      <pane id="PackagesPane">
+        <subPane />
+      </pane>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -170,7 +459,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -186,18 +474,21 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="H:\javaproject\IDEA\springBootBlog\src\main\resources" />
-      <recent name="H:\javaproject\IDEA\springBootBlog\src\main\resources\static" />
-      <recent name="H:\javaproject\IDEA\springBootBlog\src\main\resources\templates" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.blog" />
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\javaproject\IDEA\springBootBlog\src\main\resources\UEditor" />
+      <recent name="H:\javaproject\IDEA\springBootBlog\src\main\resources\lib" />
       <recent name="H:\javaproject\IDEA\springBootBlog\src\test\java\com\blog" />
       <recent name="H:\javaproject\IDEA\springBootBlog\src\test\java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\javaproject\IDEA\springBootBlog\src\main\resources\UEditor" />
+      <recent name="H:\javaproject\IDEA\springBootBlog\src\main\resources" />
+      <recent name="H:\javaproject\IDEA\springBootBlog\src\main\resources\static" />
+      <recent name="H:\javaproject\IDEA\springBootBlog\src\main\resources\templates" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.Application">
@@ -771,7 +1062,12 @@
       <workItem from="1486974095609" duration="8161000" />
       <workItem from="1487045122371" duration="3321000" />
       <workItem from="1487067231495" duration="1368000" />
-      <workItem from="1487068637933" duration="652000" />
+      <workItem from="1487068637933" duration="1424000" />
+      <workItem from="1487070366911" duration="2245000" />
+      <workItem from="1487080519782" duration="2125000" />
+      <workItem from="1487164821335" duration="598000" />
+      <workItem from="1487236141415" duration="675000" />
+      <workItem from="1487256654283" duration="2611000" />
     </task>
     <servers />
   </component>
@@ -808,7 +1104,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62255000" />
+    <option name="totallyTimeSpent" value="71281000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
@@ -829,6 +1125,7 @@
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24791667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896176" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -840,7 +1137,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896176" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896176" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -862,11 +1158,11 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3431694" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3431694" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24791667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24791667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896176" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
@@ -894,15 +1190,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/blog/conf/Constant.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/Application.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/blog/conf/CoreFilter.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/blog/repository/UserRepository.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/blog/model/User.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/blog/service/LoginService.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/blog/controller/Login.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/blog/util/JwtUtil.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/blog/util/JsonUtil.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/blog/conf/Constant.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/blog/service/TestUserService.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/4.3.6.RELEASE/spring-tx-4.3.6.RELEASE.jar!/org/springframework/transaction/annotation/ProxyTransactionManagementConfiguration.class">
@@ -924,14 +1211,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -964,13 +1243,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/blog/error/UserDefinedException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="936">
-          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/blog/advice/UserDefinedExceptionHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="268">
@@ -991,13 +1263,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="436">
           <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/blog/error/ErrorInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -1064,28 +1329,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/blog/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-          <folding>
-            <element signature="e#790#791#0" expanded="true" />
-            <element signature="e#852#853#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/blog/repository/BlogRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
           <caret line="18" column="74" selection-start-line="18" selection-start-column="74" selection-end-line="18" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -1100,9 +1347,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1872">
           <caret line="48" column="22" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1111,13 +1355,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
           <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/blog/controller/BlogController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1135,18 +1372,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/blog/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/blog/util/JsonUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1154,9 +1383,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="702">
           <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1164,8 +1390,129 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="117">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blog/error/UserDefinedException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blog/error/ErrorInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blog/controller/BlogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-63">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blog/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blog/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nginx.cong">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="49" column="28" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/UEditor/dialogs/map/map.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/UEditor/lang/en/en.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1470798380000" expanded="true" signature="4656:4666" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baidu/ueditor/ueditor-java/1.4.3/ueditor-java-1.4.3.jar!/com/baidu/ueditor/ConfigManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/UEditor/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-63">
+          <caret line="76" column="16" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/UEditor/ueditor.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/UEditor/ueditor.all.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/UEditor/dialogs/anchor/anchor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/UEditor/lang/zh-cn/images/copy.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>
