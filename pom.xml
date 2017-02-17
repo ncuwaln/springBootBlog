@@ -44,10 +44,5 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
         </dependency>
-        <dependency>
-            <groupId>com.baidu.ueditor</groupId>
-            <artifactId>ueditor-java</artifactId>
-            <version>1.4.3</version>
-        </dependency>
     </dependencies>
 </project>
