@@ -11,6 +11,9 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
 
+import java.io.UnsupportedEncodingException;
+import java.security.NoSuchAlgorithmException;
+
 /**
  * Created by Administrator on 2017/2/5.
  */
@@ -22,7 +25,7 @@ public class TestUserService {
     private UserService userService;
 
     @Test
-    public void test() throws UserDefinedException {
+    public void test() throws UserDefinedException, UnsupportedEncodingException, NoSuchAlgorithmException {
         userService.addUser(new User("stcode", "tjq980303", "2963103258@qq.com"));
         User u = userService.findUserByUsername("stcode");
         System.out.println(u.getHashPassword());

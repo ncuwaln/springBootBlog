@@ -1,7 +1,9 @@
 package com.blog.util;
 
 import org.springframework.stereotype.Component;
+import sun.misc.BASE64Encoder;
 
+import java.io.UnsupportedEncodingException;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
@@ -19,10 +21,11 @@ public class MD5Util {
         }
     }
 
-    public static String String2MD5(String s){
-        byte[] input = s.getBytes();
-        byte[] buffer = md5.digest(input);
-        return bytesToHex(buffer);
+    public static String String2MD5(String s) throws NoSuchAlgorithmException, UnsupportedEncodingException {
+        MessageDigest md5=MessageDigest.getInstance("MD5");
+        BASE64Encoder base64en = new BASE64Encoder();
+        String newstr=base64en.encode(md5.digest(s.getBytes("utf-8")));
+        return newstr;
     }
 
     private static String bytesToHex(byte[] bytes){

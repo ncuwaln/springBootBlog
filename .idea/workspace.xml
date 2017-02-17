@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03dd6946-6133-4181-a076-8e9e22e92770" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/blog/service/FileService.class" afterPath="$PROJECT_DIR$/target/classes/com/blog/service/FileService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/blog/test/TestFileService.class" afterPath="$PROJECT_DIR$/target/test-classes/com/blog/test/TestFileService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/blog/controller/FileController.java" afterPath="$PROJECT_DIR$/src/main/java/com/blog/controller/FileController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/blog/controller/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/com/blog/controller/UserController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/blog/service/FileService.java" afterPath="$PROJECT_DIR$/src/main/java/com/blog/service/FileService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/blog/service/UserService.java" afterPath="$PROJECT_DIR$/src/main/java/com/blog/service/UserService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/blog/util/MD5Util.java" afterPath="$PROJECT_DIR$/src/main/java/com/blog/util/MD5Util.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/blog/test/TestFileService.java" afterPath="$PROJECT_DIR$/src/test/java/com/blog/test/TestFileService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/blog/test/TestMD5.java" afterPath="$PROJECT_DIR$/src/test/java/com/blog/test/TestMD5.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/blog/test/TestUserService.java" afterPath="$PROJECT_DIR$/src/test/java/com/blog/test/TestUserService.java" />
     </list>
     <ignored path="springBootBlog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -70,13 +74,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/blog/model/User.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/blog/test/TestJsonUtil.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/blog/test/TestBlogRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/blog/util/MD5Util.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/blog/test/TestMD5.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/blog/test/TestJwt.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/blog/util/JwtUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/blog/model/Blog.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/blog/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/blog/test/TestUserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/blog/repository/BlogRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/blog/service/BlogService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/blog/repository/UserRepository.java" />
@@ -84,23 +84,27 @@
         <option value="$PROJECT_DIR$/src/main/java/com/blog/service/TokenService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/blog/controller/TokenController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/blog/controller/BlogController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/blog/controller/UserController.java" />
         <option value="$PROJECT_DIR$/nginx.cong" />
         <option value="$PROJECT_DIR$/src/main/resources/UEditor/ueditor.config.js" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/blog/service/UploadFileService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/blog/controller/FileUploadController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/image.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/blog/controller/FileController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/index.html" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/blog/Application.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
         <option value="$PROJECT_DIR$/src/main/resources/static/image/index.html" />
         <option value="$PROJECT_DIR$/src/main/resources/static/index.html" />
-        <option value="$PROJECT_DIR$/src/test/java/com/blog/test/TestFileService.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/blog/util/MD5Util.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/blog/test/TestMD5.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/blog/service/FileService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/blog/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/blog/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/blog/controller/FileController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/blog/test/TestFileService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/blog/test/TestUserService.java" />
       </list>
     </option>
   </component>
@@ -203,6 +207,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springBootBlog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springBootBlog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -212,10 +230,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -234,10 +248,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -293,7 +303,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
+              <option name="myItemId" value="util" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -333,33 +343,7 @@
       <recent name="H:\javaproject\IDEA\springBootBlog\src\main\resources\lib" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestFileService.test">
-    <configuration default="false" name="TestUserService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.blog.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="springBootBlog" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.blog.test" />
-      <option name="MAIN_CLASS_NAME" value="com.blog.test.TestUserService" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.TestUserService.test">
     <configuration default="false" name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -370,32 +354,6 @@
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.blog.Application" />
       <module name="springBootBlog" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="TestUserService.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.blog.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="springBootBlog" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.blog.test" />
-      <option name="MAIN_CLASS_NAME" value="com.blog.test.TestUserService" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
       <method />
     </configuration>
     <configuration default="false" name="TestFileService.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -424,7 +382,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="TestFileService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="TestMD5.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.blog.test.*" />
@@ -435,9 +393,61 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.blog.test" />
-      <option name="MAIN_CLASS_NAME" value="com.blog.test.TestFileService" />
+      <option name="MAIN_CLASS_NAME" value="com.blog.test.TestMD5" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestMD5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.blog.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="springBootBlog" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.blog.test" />
+      <option name="MAIN_CLASS_NAME" value="com.blog.test.TestMD5" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestUserService.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.blog.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="springBootBlog" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.blog.test" />
+      <option name="MAIN_CLASS_NAME" value="com.blog.test.TestUserService" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -865,19 +875,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.TestUserService" />
-      <item index="1" class="java.lang.String" itemvalue="Spring Boot.Application" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TestUserService.test" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TestFileService.test" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TestFileService" />
+      <item index="0" class="java.lang.String" itemvalue="Spring Boot.Application" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TestFileService.test" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TestMD5.test" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TestMD5" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TestUserService.test" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TestFileService.test" />
-        <item index="1" class="java.lang.String" itemvalue="Spring Boot.Application" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TestFileService" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TestUserService" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TestUserService.test" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TestUserService.test" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestMD5" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TestMD5.test" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestFileService.test" />
+        <item index="4" class="java.lang.String" itemvalue="Spring Boot.Application" />
       </list>
     </recent_temporary>
   </component>
@@ -914,26 +924,11 @@
       <workItem from="1487310684544" duration="5602000" />
       <workItem from="1487317157830" duration="1702000" />
       <workItem from="1487321668429" duration="1439000" />
-      <workItem from="1487323133933" duration="3228000" />
+      <workItem from="1487323133933" duration="4182000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestFileService_test - 2017.02.17 at 16h 00m 37s.xml">
-      <configuration name="TestFileService.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestFileService_test - 2017.02.17 at 16h 03m 50s.xml">
-      <configuration name="TestFileService.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestFileService_test - 2017.02.17 at 16h 05m 45s.xml">
-      <configuration name="TestFileService.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestFileService_test - 2017.02.17 at 20h 22m 47s.xml">
-      <configuration name="TestFileService.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestFileService_test - 2017.02.17 at 20h 25m 18s.xml">
-      <configuration name="TestFileService.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestFileService_test - 2017.02.17 at 20h 26m 16s.xml">
       <configuration name="TestFileService.test" configurationId="JUnit" />
     </history-entry>
@@ -946,12 +941,27 @@
     <history-entry file="TestFileService_test - 2017.02.17 at 20h 34m 02s.xml">
       <configuration name="TestFileService.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestUserService - 2017.02.17 at 15h 58m 54s.xml">
-      <configuration name="TestUserService" configurationId="JUnit" />
+    <history-entry file="TestMD5 - 2017.02.17 at 20h 42m 08s.xml">
+      <configuration name="TestMD5" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestMD5 - 2017.02.17 at 20h 43m 05s.xml">
+      <configuration name="TestMD5" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestMD5 - 2017.02.17 at 20h 46m 30s.xml">
+      <configuration name="TestMD5" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestMD5 - 2017.02.17 at 20h 49m 29s.xml">
+      <configuration name="TestMD5" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestMD5_test - 2017.02.17 at 20h 38m 14s.xml">
+      <configuration name="TestMD5.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestUserService_test - 2017.02.17 at 20h 49m 59s.xml">
+      <configuration name="TestUserService.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85286000" />
+    <option name="totallyTimeSpent" value="86240000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
@@ -1037,27 +1047,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/blog/test/TestMD5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/blog/test/TestJsonUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-53">
-          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/blog/test/TestJwt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/blog/conf/Constant.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="335">
@@ -1079,25 +1068,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/blog/util/JwtUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1872">
-          <caret line="48" column="22" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/blog/service/TokenService.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/blog/util/JsonUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/blog/util/MD5Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -1119,13 +1094,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-63">
           <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/blog/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -1179,13 +1147,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/blog/test/TestBlogRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/image.html" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.6.RELEASE/spring-core-4.3.6.RELEASE.jar!/org/springframework/core/io/InputStreamSource.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -1215,21 +1176,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/blog/controller/FileController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="40" column="73" selection-start-line="40" selection-start-column="73" selection-end-line="40" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/file/1/jpg04120ffffffc10ffffff94760ffffffc6080ffffffce01550ffffffe70ffffffdd2421690ffffffb0.jpg" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/blog/test/TestUserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/file/1/jpg/04120ffffffc10ffffff94760ffffffc6080ffffffce01550ffffffe70ffffffdd2421690ffffffb0.jpg" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/index.html" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
@@ -1293,22 +1240,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/blog/test/TestFileService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="33" column="52" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/blog/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="44" column="15" selection-start-line="44" selection-start-column="15" selection-end-line="44" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/blog/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -1320,10 +1251,98 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blog/util/JwtUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="48" column="22" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blog/util/MD5Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/blog/test/TestMD5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/blog/test/TestFileService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blog/controller/FileController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="41" column="39" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blog/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="49" column="32" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blog/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="46" column="67" selection-start-line="46" selection-start-column="67" selection-end-line="46" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/blog/service/FileService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+        <state relative-caret-position="194">
+          <caret line="29" column="53" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/blog/test/TestUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/blog/test/TestJwt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/blog/test/TestJsonUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/blog/test/TestBlogRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
           <folding />
         </state>
       </provider>

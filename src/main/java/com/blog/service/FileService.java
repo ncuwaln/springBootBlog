@@ -3,10 +3,8 @@ package com.blog.service;
 import com.blog.util.MD5Util;
 import org.springframework.stereotype.Component;
 
-import java.io.DataOutputStream;
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.IOException;
+import java.io.*;
+import java.security.NoSuchAlgorithmException;
 
 /**
  * Created by Administrator on 2017/2/17.
@@ -21,7 +19,7 @@ public class FileService {
      * @param filename 文件名
      * @return
      */
-    public String upload(int user_id, byte[] bytes, String type, String filename){
+    public String upload(int user_id, byte[] bytes, String type, String filename) throws UnsupportedEncodingException, NoSuchAlgorithmException {
         StringBuilder filepath = new StringBuilder("target/classes/static/upload/");
         filepath = filepath.append(String.valueOf(user_id)).append("/").append(type).append("/");
         File f = new File(filepath.toString());

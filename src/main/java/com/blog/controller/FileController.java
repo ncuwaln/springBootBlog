@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.io.IOException;
+import java.security.NoSuchAlgorithmException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
@@ -26,7 +27,7 @@ public class FileController {
     private static ArrayList<String> acceptFileType = new ArrayList<String>();
 
     @RequestMapping(value = "/upload", method = RequestMethod.POST)
-    public Map upload(@RequestParam("file") MultipartFile file, @CookieValue("token")String token) throws UserDefinedException, IOException {
+    public Map upload(@RequestParam("file") MultipartFile file, @CookieValue("token")String token) throws UserDefinedException, IOException, NoSuchAlgorithmException {
         if (!file.isEmpty()){
             throw new UserDefinedException("文件不能为空", 400);
         }

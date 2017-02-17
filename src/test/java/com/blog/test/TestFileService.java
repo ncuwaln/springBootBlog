@@ -10,6 +10,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
 
 import java.io.*;
+import java.security.NoSuchAlgorithmException;
 
 /**
  * Created by Administrator on 2017/2/17.
@@ -22,7 +23,7 @@ public class TestFileService {
     private FileService fileService;
 
     @Test
-    public void test() throws IOException {
+    public void test() throws IOException, NoSuchAlgorithmException {
         File f = new File("target/classes/test.jpg");
         FileInputStream fis = null;
         fis = new FileInputStream("target/classes/test.jpg");
@@ -31,6 +32,6 @@ public class TestFileService {
 //        DataInputStream dis = null;
 //        dis = new DataInputStream(fis);
         fis.read(bytes);
-        System.out.println(fileService.upload(1, bytes, "jpg", "test.jpg"));
+        fileService.upload(1, bytes, "jpg", "test.jpg");
     }
 }

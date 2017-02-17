@@ -9,6 +9,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.io.UnsupportedEncodingException;
+import java.security.NoSuchAlgorithmException;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -32,7 +34,7 @@ public class UserController {
 //    }
 
     @RequestMapping(value = "/register", method = RequestMethod.POST)
-    public Map register(String username, String password, String rePassword, String email) throws UserDefinedException {
+    public Map register(String username, String password, String rePassword, String email) throws UserDefinedException, UnsupportedEncodingException, NoSuchAlgorithmException {
         if (!rePassword.equals(password)){
             throw new UserDefinedException("两次输入密码不一致", 400);
         }
@@ -44,7 +46,7 @@ public class UserController {
     }
 
     @RequestMapping(value = "/login", method = RequestMethod.POST)
-    public Map login(String email, String password) throws UserDefinedException, JsonProcessingException {
+    public Map login(String email, String password) throws UserDefinedException, JsonProcessingException, UnsupportedEncodingException, NoSuchAlgorithmException {
         return userService.login(email, password);
     }
 }

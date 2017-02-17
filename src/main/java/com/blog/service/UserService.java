@@ -11,6 +11,8 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
+import java.io.UnsupportedEncodingException;
+import java.security.NoSuchAlgorithmException;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -29,7 +31,7 @@ public class UserService {
         return userRepository.findUserByUsername(username);
     }
 
-    public void addUser(User user) throws UserDefinedException {
+    public void addUser(User user) throws UserDefinedException, UnsupportedEncodingException, NoSuchAlgorithmException {
         if (userRepository.findUserByEmail(user.getEmail()) != null){
             throw new UserDefinedException("邮箱已被注册", 400);
         }
@@ -40,7 +42,7 @@ public class UserService {
         userRepository.save(user);
     }
 
-    public Map login(String email, String password) throws UserDefinedException, JsonProcessingException {
+    public Map login(String email, String password) throws UserDefinedException, JsonProcessingException, UnsupportedEncodingException, NoSuchAlgorithmException {
         User user = userRepository.findUserByEmail(email);
         if (!user.getHashPassword().equals(MD5Util.String2MD5(password))){
             throw new UserDefinedException("账号或密码错误", 403);
