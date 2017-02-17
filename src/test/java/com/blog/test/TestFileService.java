@@ -24,8 +24,6 @@ public class TestFileService {
     @Test
     public void test() throws IOException {
         File f = new File("target/classes/test.jpg");
-        System.out.println(f.getCanonicalPath());
-        System.out.println(f.length());
         FileInputStream fis = null;
         fis = new FileInputStream("target/classes/test.jpg");
         byte[] bytes = new byte[(int)f.length()];

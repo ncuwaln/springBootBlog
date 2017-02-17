@@ -4,6 +4,7 @@ import com.blog.util.MD5Util;
 import org.springframework.stereotype.Component;
 
 import java.io.DataOutputStream;
+import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
@@ -22,7 +23,11 @@ public class FileService {
      */
     public String upload(int user_id, byte[] bytes, String type, String filename){
         StringBuilder filepath = new StringBuilder("target/file/");
-        filepath = filepath.append(String.valueOf(user_id)).append("/").append(type);
+        filepath = filepath.append(String.valueOf(user_id)).append("/").append(type).append("/");
+        File f = new File(filepath.toString());
+        if (!f.exists()){
+            f.mkdir();
+        }
         filepath = filepath.append(MD5Util.String2MD5(filename)).append(".").append(type);
         String url = null;
         DataOutputStream dos = null;
