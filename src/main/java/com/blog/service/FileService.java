@@ -22,12 +22,13 @@ public class FileService {
      * @return
      */
     public String upload(int user_id, byte[] bytes, String type, String filename){
-        StringBuilder filepath = new StringBuilder("target/file/");
+        StringBuilder filepath = new StringBuilder("target/classes/static/upload/");
         filepath = filepath.append(String.valueOf(user_id)).append("/").append(type).append("/");
         File f = new File(filepath.toString());
         if (!f.exists()){
             f.mkdir();
         }
+        filename = filename+String.valueOf(System.currentTimeMillis());
         filepath = filepath.append(MD5Util.String2MD5(filename)).append(".").append(type);
         String url = null;
         DataOutputStream dos = null;
@@ -36,7 +37,7 @@ public class FileService {
             fos = new FileOutputStream(filepath.toString());
             dos = new DataOutputStream(fos);
             dos.write(bytes);
-            url = filepath.substring(10);
+            url = filepath.substring(22);
         } catch (IOException e) {
             e.printStackTrace();
         } finally {

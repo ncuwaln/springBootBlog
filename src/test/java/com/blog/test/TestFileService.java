@@ -31,6 +31,6 @@ public class TestFileService {
 //        DataInputStream dis = null;
 //        dis = new DataInputStream(fis);
         fis.read(bytes);
-        fileService.upload(1, bytes, "jpg", "test.jpg");
+        System.out.println(fileService.upload(1, bytes, "jpg", "test.jpg"));
     }
 }
