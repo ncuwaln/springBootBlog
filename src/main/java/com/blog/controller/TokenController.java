@@ -20,8 +20,11 @@ public class TokenController {
 
     /**
      *
-     * @param refresh refreshToken
-     * @return
+     * @param refresh cookie中的refreshToken
+     * @return {
+     *     "token": 用户token
+     *     "refreshToken": 用于刷新的token
+     * }
      */
     @RequestMapping(method = RequestMethod.GET)
     public Map refresh(@CookieValue("refresh") String refresh){

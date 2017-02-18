@@ -15,6 +15,9 @@ public interface BlogRepository extends CrudRepository<Blog, Integer>{
     @Query("select b from Blog b where b.title like :title escape '/'")
     public  List<Blog> findBlogByTitle(@Param("title") String title);
 
-    @Query("select b from Blog b where b.user_id=:user_id")
-    public List<Blog> findBlogByAuthor(@Param("user_id") Integer user_id);
+    @Query("select b from Blog b where b.author=:author")
+    public List<Blog> findBlogByAuthor(@Param("author") String author);
+
+    @Query("select b from Blog b where b.author like :keywords escape '/'")
+    public List<Blog> findBlogByAuthorKeywords(@Param("keywords") String keywords);
 }

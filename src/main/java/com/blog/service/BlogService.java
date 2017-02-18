@@ -23,12 +23,9 @@ public class BlogService {
 
     public Blog writeBlog(Integer user_id, String title, String body){
         Date create_date = new Date(System.currentTimeMillis());
-        Blog blog = new Blog(body, title, user_id, create_date);
+        User user = userRepository.findOne(user_id);
+        Blog blog = new Blog(body, title, user.getUsername(), create_date);
         return blogRepository.save(blog);
-    }
-
-    public List<Blog> findBlogByAuthorId(Integer user_id){
-        return blogRepository.findBlogByAuthor(user_id);
     }
 
     public List<Blog> findBlogsByTitle(String title){
@@ -38,13 +35,6 @@ public class BlogService {
 
     public List<Blog> findBlogsByAuthorName(String keywords){
         keywords = "%"+keywords+"%";
-        List<User> users = userRepository.findUserByKeywords(keywords);
-        ArrayList<Blog> blogs = new ArrayList<Blog>();
-        for (User x: users){
-            for (Blog b: blogRepository.findBlogByAuthor(x.getId())){
-                blogs.add(b);
-            }
-        }
-        return blogs;
+        return blogRepository.findBlogByAuthorKeywords(keywords);
     }
 }

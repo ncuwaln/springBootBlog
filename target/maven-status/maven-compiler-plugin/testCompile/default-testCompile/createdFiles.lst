@@ -1,0 +1,6 @@
+com\blog\test\TestUserService.class
+com\blog\test\TestFileService.class
+com\blog\test\TestMD5.class
+com\blog\test\TestBlogRepository.class
+com\blog\test\TestJsonUtil.class
+com\blog\test\TestJwt.class

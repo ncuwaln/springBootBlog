@@ -27,7 +27,10 @@ public class FileService {
             f.mkdir();
         }
         filename = filename+String.valueOf(System.currentTimeMillis());
-        filepath = filepath.append(MD5Util.String2MD5(filename)).append(".").append(type);
+        filename = MD5Util.String2MD5(filename);
+        filename = filename.replaceAll("/", "_");
+        filename = filename.replaceAll("\\\\", "_");
+        filepath = filepath.append(filename).append(".").append(type);
         String url = null;
         DataOutputStream dos = null;
         FileOutputStream fos = null;

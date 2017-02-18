@@ -29,8 +29,10 @@ public class FileController {
     /**
      *
      * @param file 上传的文件
-     * @param token token
-     * @return
+     * @param token token cookie的token
+     * @return {
+     *     "url": 文件的相对于根目录的url
+     * }
      * @throws UserDefinedException
      * @throws IOException
      * @throws NoSuchAlgorithmException

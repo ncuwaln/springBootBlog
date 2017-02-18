@@ -14,16 +14,16 @@ public class Blog {
     private Integer id;
     private String body;
     private String title;
-    private Integer user_id;
+    private String author;
     private Date create_date;
 
     public Blog() {
     }
 
-    public Blog(String body, String title, Integer user_id, Date create_date) {
+    public Blog(String body, String title, String  author, Date create_date) {
         this.body = body;
         this.title = title;
-        this.user_id = user_id;
+        this.author = author;
         this.create_date = create_date;
     }
 
@@ -48,7 +48,7 @@ public class Blog {
         this.body = body;
     }
 
-    @Column(name = "title", nullable = false)
+    @Column(name = "title", nullable = false, length = 50)
     public String getTitle() {
         return title;
     }
@@ -57,13 +57,13 @@ public class Blog {
         this.title = title;
     }
 
-    @Column(name = "user_id", nullable = false)
-    public Integer getUser_id() {
-        return user_id;
+    @Column(name = "author", nullable = false, length = 30)
+    public String getAuthor() {
+        return author;
     }
 
-    public void setUser_id(Integer user_id) {
-        this.user_id = user_id;
+    public void setAuthor(String author) {
+        this.author = author;
     }
 
     @Column(name = "create_date", nullable = false)

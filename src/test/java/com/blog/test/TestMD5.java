@@ -13,7 +13,7 @@ public class TestMD5 {
 
     @Test
     public void test() throws UnsupportedEncodingException, NoSuchAlgorithmException {
-        String s = "tjq980303";
+        String s = "test";
         System.out.println(MD5Util.String2MD5(s));
     }
 

@@ -32,11 +32,13 @@ public class BlogController {
 
     /**
      *
-     * @param title 文章标题
-     * @param body 文章内容
-     * @param token token
-     * @param tagMessage 标签
-     * @return
+     * @param title 文章标题 str
+     * @param body 文章内容 str
+     * @param token token cookie中的token
+     * @param tagMessage 标签 [str]
+     * @return {
+     *     "status": "successful"
+     * }
      * @throws IOException
      */
     @RequestMapping(value = "/add", method = RequestMethod.POST)
@@ -63,7 +65,15 @@ public class BlogController {
      *
      * @param keywords 搜索的关键字
      * @param type 类型: title, author里面选
-     * @return
+     * @return {
+     * [{
+     *     "blog_id": 博客ID(一般不要用),
+     *     "body": 博客主体,
+     *     "title": 博客题目,
+     *     "author": 作者,
+     *     "create_date": 日期(datetime类型)
+     * }]
+     * }
      */
     @RequestMapping(value = "/search")
     public List<Blog> searchBlog(String keywords, String type){

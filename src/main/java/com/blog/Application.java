@@ -1,6 +1,7 @@
 package com.blog;
 
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.SpringBootConfiguration;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
@@ -27,6 +28,5 @@ public class Application {
             file.mkdirs();
         }
         SpringApplication.run(Application.class, args);
-
     }
 }

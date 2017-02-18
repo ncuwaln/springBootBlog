@@ -25,11 +25,13 @@ public class UserController {
 
     /**
      *
-     * @param username 用户名
-     * @param password 密码
-     * @param rePassword 第二次输入的密码
-     * @param email 邮箱
-     * @return
+     * @param username 用户名 str
+     * @param password 密码 str
+     * @param rePassword 第二次输入的密码 str
+     * @param email 邮箱 str
+     * @return {
+     *     "status": "successful"
+     * }
      * @throws UserDefinedException
      * @throws UnsupportedEncodingException
      * @throws NoSuchAlgorithmException
@@ -42,7 +44,7 @@ public class UserController {
         User user = new User(username, password, email);
         userService.addUser(user);
         Map message = new HashMap();
-        message.put("stats", "successful");
+        message.put("status", "successful");
         return message;
     }
 
@@ -50,7 +52,10 @@ public class UserController {
      *
      * @param email 邮箱
      * @param password 密码
-     * @return
+     * @return {
+     *     "token": 用户token
+     *     "refreshToken": 用于刷新的token
+     * }
      * @throws UserDefinedException
      * @throws JsonProcessingException
      * @throws UnsupportedEncodingException

@@ -25,9 +25,9 @@ public class TestBlogRepository {
 
     @Test
     public void test(){
-        Blog blog = new Blog("博客测试", "博客测试", 1, new Date(System.currentTimeMillis()));
+        Blog blog = new Blog("博客测试", "博客测试", "tjq", new Date(System.currentTimeMillis()));
         blogRepository.save(blog);
-        List<Blog> blogs = blogRepository.findBlogByAuthor(1);
+        List<Blog> blogs = blogRepository.findBlogByAuthor("tjq");
         List<Blog> blogs1 = blogRepository.findBlogByTitle("%博客%");
         System.out.println(blogs.get(0).getBody());
         System.out.println(blogs1.get(0).getCreate_date());
