@@ -26,6 +26,15 @@ public class FileController {
 
     private static ArrayList<String> acceptFileType = new ArrayList<String>();
 
+    /**
+     *
+     * @param file 上传的文件
+     * @param token token
+     * @return
+     * @throws UserDefinedException
+     * @throws IOException
+     * @throws NoSuchAlgorithmException
+     */
     @RequestMapping(value = "/upload", method = RequestMethod.POST)
     public Map upload(@RequestParam("file") MultipartFile file, @CookieValue("token")String token) throws UserDefinedException, IOException, NoSuchAlgorithmException {
         if (!file.isEmpty()){
@@ -44,5 +53,4 @@ public class FileController {
         result.put("url", url);
         return result;
     }
-
 }

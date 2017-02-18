@@ -11,6 +11,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
+import java.io.File;
 import java.io.UnsupportedEncodingException;
 import java.security.NoSuchAlgorithmException;
 import java.util.HashMap;
@@ -39,7 +40,11 @@ public class UserService {
             throw new UserDefinedException("用户名已存在", 400);
         }
         user.setHashPassword(MD5Util.String2MD5(user.getHashPassword()));
-        userRepository.save(user);
+        User u = userRepository.save(user);
+        StringBuilder userpath = new StringBuilder("target/classes/static/upload/");
+        userpath.append(String.valueOf(u.getId()));
+        File file = new File(userpath.toString());
+        file.mkdir();
     }
 
     public Map login(String email, String password) throws UserDefinedException, JsonProcessingException, UnsupportedEncodingException, NoSuchAlgorithmException {
@@ -59,7 +64,4 @@ public class UserService {
         return m;
     }
 
-    private boolean is_email(String account_id){
-        return userRepository.findUserByEmail(account_id) != null;
-    }
 }

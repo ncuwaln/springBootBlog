@@ -18,6 +18,11 @@ import java.util.Map;
 @RequestMapping(value = "/token")
 public class TokenController {
 
+    /**
+     *
+     * @param refresh refreshToken
+     * @return
+     */
     @RequestMapping(method = RequestMethod.GET)
     public Map refresh(@CookieValue("refresh") String refresh){
         Claims claims = JwtUtil.parseJWT(refresh);

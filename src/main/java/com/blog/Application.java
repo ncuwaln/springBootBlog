@@ -8,6 +8,8 @@ import org.springframework.boot.web.servlet.ServletComponentScan;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
+import java.io.File;
+
 /**
  * Created by Administrator on 2017/2/5.
  */
@@ -20,6 +22,11 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @EntityScan(basePackages = {"com.blog.model"})
 public class Application {
     public static void main(String[] args){
+        File file = new File( "target/classes/static/upload");
+        if (!file.exists()){
+            file.mkdirs();
+        }
         SpringApplication.run(Application.class, args);
+
     }
 }

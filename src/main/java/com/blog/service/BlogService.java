@@ -21,10 +21,10 @@ public class BlogService {
     @Autowired
     private UserRepository userRepository;
 
-    public void writeBlog(Integer user_id, String title, String body){
+    public Blog writeBlog(Integer user_id, String title, String body){
         Date create_date = new Date(System.currentTimeMillis());
         Blog blog = new Blog(body, title, user_id, create_date);
-        blogRepository.save(blog);
+        return blogRepository.save(blog);
     }
 
     public List<Blog> findBlogByAuthorId(Integer user_id){

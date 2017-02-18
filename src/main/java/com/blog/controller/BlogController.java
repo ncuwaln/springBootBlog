@@ -2,6 +2,7 @@ package com.blog.controller;
 
 import com.blog.model.Blog;
 import com.blog.model.Tag;
+import com.blog.model.TagBlog;
 import com.blog.service.BlogService;
 import com.blog.service.TagService;
 import com.blog.util.JsonUtil;
@@ -34,22 +35,25 @@ public class BlogController {
      * @param title 文章标题
      * @param body 文章内容
      * @param token token
-     * @param tag 标签
+     * @param tagMessage 标签
      * @return
      * @throws IOException
      */
     @RequestMapping(value = "/add", method = RequestMethod.POST)
-    public Map addBlog(String title, String body, List<Tag> tag, @CookieValue("token") String token) throws IOException {
-        for (Tag t:tag){
-            if (tagService.findTagByMessage(t.getMessage()) == null){
-                tagService.addTag(t);
-            }
-        }
-        Date create_date = new Date(System.currentTimeMillis());
+    public Map addBlog(String title, String body, List<String> tagMessage, @CookieValue("token") String token) throws IOException {
         String subject = JwtUtil.parseJWT(token).getSubject();
         Map m = (Map) JsonUtil.json2object(subject, Map.class);
         Integer user_id = (Integer)m.get("user_id");
-        blogService.writeBlog(user_id, title, body);
+        Blog tempBlog = blogService.writeBlog(user_id, title, body);
+        Tag tempTag = null;
+        for (String t:tagMessage){
+            if (tagService.findTagByMessage(t) == null){
+                tempTag = tagService.addTag(new Tag(t));
+            }else {
+                tempTag = tagService.findTagByMessage(t);
+            }
+            tagService.label(new TagBlog(tempTag.getId(), tempBlog.getId()));
+        }
         Map result = new HashMap();
         result.put("status", "successful");
         return result;

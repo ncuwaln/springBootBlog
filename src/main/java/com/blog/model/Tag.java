@@ -14,8 +14,7 @@ public class Tag {
     public Tag() {
     }
 
-    public Tag(Integer id, String message) {
-        this.id = id;
+    public Tag(String message) {
         this.message = message;
     }
 

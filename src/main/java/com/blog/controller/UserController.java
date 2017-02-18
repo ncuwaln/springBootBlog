@@ -22,17 +22,18 @@ import java.util.Map;
 public class UserController {
     @Autowired
     public UserService userService;
-//    @RequestMapping(value = "login", method = RequestMethod.POST)
-//    public String login(String user){
-//
-//    }
-//    @RequestMapping(method = RequestMethod.GET)
-//    public String getUserByUsername(String username){
-//        User u = userService.findUserByUsername(username);
-//        System.out.print(u.getUsername());
-//        return "successful";
-//    }
 
+    /**
+     *
+     * @param username 用户名
+     * @param password 密码
+     * @param rePassword 第二次输入的密码
+     * @param email 邮箱
+     * @return
+     * @throws UserDefinedException
+     * @throws UnsupportedEncodingException
+     * @throws NoSuchAlgorithmException
+     */
     @RequestMapping(value = "/register", method = RequestMethod.POST)
     public Map register(String username, String password, String rePassword, String email) throws UserDefinedException, UnsupportedEncodingException, NoSuchAlgorithmException {
         if (!rePassword.equals(password)){
@@ -45,6 +46,16 @@ public class UserController {
         return message;
     }
 
+    /**
+     *
+     * @param email 邮箱
+     * @param password 密码
+     * @return
+     * @throws UserDefinedException
+     * @throws JsonProcessingException
+     * @throws UnsupportedEncodingException
+     * @throws NoSuchAlgorithmException
+     */
     @RequestMapping(value = "/login", method = RequestMethod.POST)
     public Map login(String email, String password) throws UserDefinedException, JsonProcessingException, UnsupportedEncodingException, NoSuchAlgorithmException {
         return userService.login(email, password);
