@@ -20,4 +20,7 @@ public interface BlogRepository extends CrudRepository<Blog, Integer>{
 
     @Query("select b from Blog b where b.author like :keywords escape '/'")
     public List<Blog> findBlogByAuthorKeywords(@Param("keywords") String keywords);
+
+    @Query(value = "SELECT * from blog ORDER BY UNIX_TIMESTAMP(blog.create_date) DESC LIMIT :start, :end", nativeQuery = true)
+    public List<Blog> listBlog(@Param("start") Integer start, @Param("end") Integer end);
 }

@@ -32,7 +32,7 @@ public class UserService {
         return userRepository.findUserByUsername(username);
     }
 
-    public void addUser(User user) throws UserDefinedException, UnsupportedEncodingException, NoSuchAlgorithmException {
+    public User addUser(User user) throws UserDefinedException, UnsupportedEncodingException, NoSuchAlgorithmException {
         if (userRepository.findUserByEmail(user.getEmail()) != null){
             throw new UserDefinedException("邮箱已被注册", 400);
         }
@@ -45,6 +45,7 @@ public class UserService {
         userpath.append(String.valueOf(u.getId()));
         File file = new File(userpath.toString());
         file.mkdir();
+        return u;
     }
 
     public Map login(String email, String password) throws UserDefinedException, JsonProcessingException, UnsupportedEncodingException, NoSuchAlgorithmException {

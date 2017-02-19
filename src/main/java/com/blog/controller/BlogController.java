@@ -84,4 +84,15 @@ public class BlogController {
             return blogService.findBlogsByAuthorName(keywords);
         }
     }
+
+    /**
+     *
+     * @param pages 页数 str
+     * @param limits 一页显示的范围 int
+     * @return [Blog]
+     */
+    @RequestMapping("/list")
+    public List<Blog> ListBlog(Integer pages, Integer limits){
+        return blogService.listBlog(pages, limits);
+    }
 }

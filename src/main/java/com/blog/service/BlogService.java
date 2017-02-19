@@ -37,4 +37,10 @@ public class BlogService {
         keywords = "%"+keywords+"%";
         return blogRepository.findBlogByAuthorKeywords(keywords);
     }
+
+    public List<Blog> listBlog(Integer pages, Integer limits){
+        Integer start = (pages-1)*limits;
+        Integer end = start+limits;
+        return blogRepository.listBlog(start, end);
+    }
 }
