@@ -24,10 +24,6 @@ import java.io.File;
 @EntityScan(basePackages = {"com.blog.model"})
 public class Application {
     public static void main(String[] args){
-        File file = new File( "target/classes/static/upload");
-        if (!file.exists()){
-            file.mkdirs();
-        }
         SpringApplication.run(Application.class, args);
     }
 }

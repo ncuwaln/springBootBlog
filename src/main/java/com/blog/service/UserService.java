@@ -41,10 +41,6 @@ public class UserService {
         }
         user.setHashPassword(MD5Util.String2MD5(user.getHashPassword()));
         User u = userRepository.save(user);
-        StringBuilder userpath = new StringBuilder("target/classes/static/upload/");
-        userpath.append(String.valueOf(u.getId()));
-        File file = new File(userpath.toString());
-        file.mkdir();
         return u;
     }
 

@@ -28,9 +28,6 @@ public class TestFileService {
         FileInputStream fis = null;
         fis = new FileInputStream("target/classes/test.jpg");
         byte[] bytes = new byte[(int)f.length()];
-
-//        DataInputStream dis = null;
-//        dis = new DataInputStream(fis);
         fis.read(bytes);
         fileService.upload(1, bytes, "jpg", "test.jpg");
     }
