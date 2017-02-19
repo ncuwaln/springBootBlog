@@ -4,6 +4,7 @@ import com.blog.model.User;
 import com.blog.util.JsonUtil;
 import org.junit.Test;
 
+import java.io.File;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
