@@ -10,14 +10,3 @@ fetch(url).then(function (json) {
 	alert(json);
 });
 ```
-
-
-* 后来发现fetch可以直接支持cors，该方法不需要上述支持
-
-
-```Javascript
-let url = "http://127.0.0.1:8080/blog/list?pages=1&limits=3";
-fetch(url).then(function (json) {
-	alert(json);
-});
-```
