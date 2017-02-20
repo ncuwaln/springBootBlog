@@ -1,7 +1,6 @@
 package com.blog.util;
 
 import com.aliyun.oss.OSSClient;
-import com.aliyun.oss.model.PutObjectResult;
 
 import java.io.ByteArrayInputStream;
 import java.io.File;

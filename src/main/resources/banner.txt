@@ -1,0 +1,27 @@
+${AnsiColor.BRIGHT_BLUE}
+MMMMMMMM               MMMMMMMMYYYYYYY       YYYYYYY     BBBBBBBBBBBBBBBBB   LLLLLLLLLLL                  OOOOOOOOO             GGGGGGGGGGGGG
+M:::::::M             M:::::::MY:::::Y       Y:::::Y     B::::::::::::::::B  L:::::::::L                OO:::::::::OO        GGG::::::::::::G
+M::::::::M           M::::::::MY:::::Y       Y:::::Y     B::::::BBBBBB:::::B L:::::::::L              OO:::::::::::::OO    GG:::::::::::::::G
+M:::::::::M         M:::::::::MY::::::Y     Y::::::Y     BB:::::B     B:::::BLL:::::::LL             O:::::::OOO:::::::O  G:::::GGGGGGGG::::G
+M::::::::::M       M::::::::::MYYY:::::Y   Y:::::YYY       B::::B     B:::::B  L:::::L               O::::::O   O::::::O G:::::G       GGGGGG
+M:::::::::::M     M:::::::::::M   Y:::::Y Y:::::Y          B::::B     B:::::B  L:::::L               O:::::O     O:::::OG:::::G              
+M:::::::M::::M   M::::M:::::::M    Y:::::Y:::::Y           B::::BBBBBB:::::B   L:::::L               O:::::O     O:::::OG:::::G              
+M::::::M M::::M M::::M M::::::M     Y:::::::::Y            B:::::::::::::BB    L:::::L               O:::::O     O:::::OG:::::G    GGGGGGGGGG
+M::::::M  M::::M::::M  M::::::M      Y:::::::Y             B::::BBBBBB:::::B   L:::::L               O:::::O     O:::::OG:::::G    G::::::::G
+M::::::M   M:::::::M   M::::::M       Y:::::Y              B::::B     B:::::B  L:::::L               O:::::O     O:::::OG:::::G    GGGGG::::G
+M::::::M    M:::::M    M::::::M       Y:::::Y              B::::B     B:::::B  L:::::L               O:::::O     O:::::OG:::::G        G::::G
+M::::::M     MMMMM     M::::::M       Y:::::Y              B::::B     B:::::B  L:::::L         LLLLLLO::::::O   O::::::O G:::::G       G::::G
+M::::::M               M::::::M       Y:::::Y            BB:::::BBBBBB::::::BLL:::::::LLLLLLLLL:::::LO:::::::OOO:::::::O  G:::::GGGGGGGG::::G
+M::::::M               M::::::M    YYYY:::::YYYY         B:::::::::::::::::B L::::::::::::::::::::::L OO:::::::::::::OO    GG:::::::::::::::G
+M::::::M               M::::::M    Y:::::::::::Y         B::::::::::::::::B  L::::::::::::::::::::::L   OO:::::::::OO        GGG::::::GGG:::G
+MMMMMMMM               MMMMMMMM    YYYYYYYYYYYYY         BBBBBBBBBBBBBBBBB   LLLLLLLLLLLLLLLLLLLLLLLL     OOOOOOOOO             GGGGGG   GGGG
+  _                             _                        _
+ | |                           | |                      | |
+ | |__    _   _           ___  | |_    ___    ___     __| |   ___
+ | '_ \  | | | |         / __| | __|  / __|  / _ \   / _` |  / _ \
+ | |_) | | |_| |         \__ \ | |_  | (__  | (_) | | (_| | |  __/
+ |_.__/   \__, |         |___/  \__|  \___|  \___/   \__,_|  \___|
+           __/ |
+          |___/
+${AnsiColor.BRIGHT_RED}
+Spring Boot Version: ${spring-boot.version}${spring-boot.formatted-version}

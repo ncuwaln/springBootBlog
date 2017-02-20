@@ -11,6 +11,7 @@ import org.springframework.test.context.web.WebAppConfiguration;
 
 import java.io.*;
 import java.security.NoSuchAlgorithmException;
+import java.util.concurrent.ExecutionException;
 
 /**
  * Created by Administrator on 2017/2/17.
@@ -23,12 +24,15 @@ public class TestFileService {
     private FileService fileService;
 
     @Test
-    public void test() throws IOException, NoSuchAlgorithmException {
+    public void test() throws IOException, NoSuchAlgorithmException, ExecutionException, InterruptedException {
         File f = new File("target/classes/test.jpg");
         FileInputStream fis = null;
         fis = new FileInputStream("target/classes/test.jpg");
         byte[] bytes = new byte[(int)f.length()];
         fis.read(bytes);
-        fileService.upload(1, bytes, "jpg", "test.jpg");
+        System.out.println(fileService.upload(1, bytes, "jpg", "test.jpg"));
+        System.out.println(fileService.upload(2, bytes, "jpg", "test.jpg"));
+        System.out.println(fileService.upload(3, bytes, "jpg", "test.jpg"));
+        System.out.println(fileService.upload(4, bytes, "jpg", "test.jpg"));
     }
 }

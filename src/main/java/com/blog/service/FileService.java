@@ -1,11 +1,12 @@
 package com.blog.service;
 
-import com.blog.util.MD5Util;
 import com.blog.util.OssUtil;
 import org.springframework.stereotype.Component;
 
-import java.io.*;
+import java.io.UnsupportedEncodingException;
 import java.security.NoSuchAlgorithmException;
+import java.util.Random;
+import java.util.UUID;
 
 /**
  * Created by Administrator on 2017/2/17.
@@ -21,7 +22,7 @@ public class FileService {
      * @return
      */
     private static OssUtil ossUtil = OssUtil.getInstance();
-    public String upload(int user_id, byte[] bytes, String type, String filename) throws UnsupportedEncodingException, NoSuchAlgorithmException {
+    public String upload(int user_id, byte[] bytes, String type, String filename)  {
 //        StringBuilder filepath = new StringBuilder("target/classes/static/upload/");
 //        filepath = filepath.append(String.valueOf(user_id)).append("/").append(type).append("/");
 //        File f = new File(filepath.toString());
@@ -57,9 +58,7 @@ public class FileService {
 //                ex.printStackTrace();
 //            }
 //        }
-        filename = MD5Util.String2MD5(filename+String.valueOf(System.currentTimeMillis()));
-        filename = filename.replaceAll("/", "_");
-        filename = filename.replaceAll("\\\\", "_");
+        filename = UUID.randomUUID().toString();
         StringBuilder filepath = new StringBuilder();
         filepath = filepath.append(String.valueOf(user_id))
                 .append("/")

@@ -1,6 +1,5 @@
 package com.blog;
 
-//import com.blog.filter.CorsFilter;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -9,6 +8,7 @@ import org.springframework.boot.web.servlet.ServletComponentScan;
 //import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
+import org.springframework.scheduling.annotation.EnableAsync;
 
 import java.io.File;
 
@@ -17,9 +17,6 @@ import java.io.File;
  */
 
 @SpringBootApplication
-@EnableAutoConfiguration
-@ComponentScan
-@ServletComponentScan
 @EnableJpaRepositories(basePackages="com.blog.repository")
 @EntityScan(basePackages = {"com.blog.model"})
 public class Application {
