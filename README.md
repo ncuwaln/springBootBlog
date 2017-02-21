@@ -10,3 +10,5 @@ fetch(url).then(function (json) {
 	alert(json);
 });
 ```
+
+* 需要在com.blog.util.OssUtil填写accessKeyId与accessKeySecret
