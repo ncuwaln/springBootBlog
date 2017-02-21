@@ -9,6 +9,7 @@ import org.springframework.boot.web.servlet.ServletComponentScan;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.scheduling.annotation.EnableAsync;
+import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 import java.io.File;
 
@@ -16,6 +17,7 @@ import java.io.File;
  * Created by Administrator on 2017/2/5.
  */
 
+@EnableTransactionManagement
 @SpringBootApplication
 @EnableJpaRepositories(basePackages="com.blog.repository")
 @EntityScan(basePackages = {"com.blog.model"})

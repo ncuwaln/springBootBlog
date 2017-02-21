@@ -2,6 +2,9 @@ package com.blog.service;
 
 import com.blog.util.OssUtil;
 import org.springframework.stereotype.Component;
+import org.springframework.transaction.annotation.Isolation;
+import org.springframework.transaction.annotation.Propagation;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.io.UnsupportedEncodingException;
 import java.security.NoSuchAlgorithmException;
@@ -22,6 +25,7 @@ public class FileService {
      * @return
      */
     private static OssUtil ossUtil = OssUtil.getInstance();
+    @Transactional(isolation = Isolation.READ_COMMITTED, propagation = Propagation.REQUIRED)
     public String upload(int user_id, byte[] bytes, String type, String filename)  {
 //        StringBuilder filepath = new StringBuilder("target/classes/static/upload/");
 //        filepath = filepath.append(String.valueOf(user_id)).append("/").append(type).append("/");
