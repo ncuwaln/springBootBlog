@@ -49,7 +49,7 @@ public class FileController {
         }
         Claims claims = JwtUtil.parseJWT(token);
         Map m = (Map)JsonUtil.json2object(claims.getSubject(), Map.class);
-        Integer user_id = (Integer) m.get("token");
+        Integer user_id = (Integer) m.get("user_id");
         String url = fileService.upload(user_id, file.getBytes(), type, filename);
         Map result = new HashMap();
         result.put("url", url);

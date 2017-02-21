@@ -51,7 +51,7 @@ public class User {
         this.hashPassword = hashPassword;
     }
 
-    @Column(name = "email", nullable = false)
+    @Column(name = "email", nullable = false, length = 50)
     public String getEmail() {
         return email;
     }
