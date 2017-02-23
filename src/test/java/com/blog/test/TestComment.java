@@ -7,6 +7,7 @@ import com.blog.model.User;
 import com.blog.service.BlogService;
 import com.blog.service.CommentService;
 import com.blog.service.UserService;
+import freemarker.template.TemplateException;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,6 +15,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
 
+import javax.mail.MessagingException;
+import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.security.NoSuchAlgorithmException;
 
@@ -33,7 +36,7 @@ public class TestComment {
     private UserService userService;
 
     @Test
-    public void test() throws UserDefinedException, UnsupportedEncodingException, NoSuchAlgorithmException {
+    public void test() throws UserDefinedException, IOException, NoSuchAlgorithmException, MessagingException, TemplateException, InterruptedException {
         userService.addUser(new User("admin", "admin", "admin@qq.com"));
         blogService.writeBlog(1, "adasd", "test");
         commentService.addComment("good blog", 1, 1, 0);

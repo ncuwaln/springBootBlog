@@ -7,17 +7,26 @@ import com.blog.repository.UserRepository;
 import com.blog.util.JsonUtil;
 import com.blog.util.JwtUtil;
 import com.blog.util.MD5Util;
+import com.blog.util.MailUtil;
 import com.fasterxml.jackson.core.JsonProcessingException;
+import freemarker.template.Configuration;
+import freemarker.template.Template;
+import freemarker.template.TemplateException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Isolation;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
+import org.springframework.ui.freemarker.FreeMarkerTemplateUtils;
 
+import javax.mail.MessagingException;
+import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.security.NoSuchAlgorithmException;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.UUID;
+import java.util.concurrent.Future;
 
 /**
  * Created by Administrator on 2017/2/4.
@@ -26,6 +35,11 @@ import java.util.Map;
 public class UserService {
     @Autowired
     private UserRepository userRepository;
+    @Autowired
+    private MailUtil mailUtil;
+    @Autowired
+    private Configuration configuration;
+
     public User getUser(int id){
         return userRepository.findOne(id);
     }
@@ -35,7 +49,7 @@ public class UserService {
     }
 
     @Transactional(isolation = Isolation.READ_COMMITTED, propagation = Propagation.REQUIRED)
-    public User addUser(User user) throws UserDefinedException, UnsupportedEncodingException, NoSuchAlgorithmException {
+    public User addUser(User user) throws UserDefinedException, IOException, NoSuchAlgorithmException, TemplateException, MessagingException, InterruptedException {
         if (userRepository.findUserByEmail(user.getEmail()) != null){
             throw new UserDefinedException("邮箱已被注册", 400);
         }
@@ -43,6 +57,15 @@ public class UserService {
             throw new UserDefinedException("用户名已存在", 400);
         }
         user.setHashPassword(MD5Util.String2MD5(user.getHashPassword()));
+        user.setActive(0);
+        user.setMd5(UUID.randomUUID().toString());
+        Map<String, Object> map = new HashMap<String, Object>();
+        String url = "";
+        map.put("link", url);
+        Template template = configuration.getTemplate("mail.ftl");
+        String text = FreeMarkerTemplateUtils.processTemplateIntoString(template, map);
+        mailUtil.buildMail(user.getEmail(), "MBLOG账号激活验证邮件", text);
+        mailUtil.senMail(true);
         User u = userRepository.save(user);
         return u;
     }

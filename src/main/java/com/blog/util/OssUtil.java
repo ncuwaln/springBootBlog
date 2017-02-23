@@ -10,8 +10,8 @@ import java.io.File;
  */
 public class OssUtil {
     private final static String endpoint = "http://oss-cn-shanghai.aliyuncs.com";
-    private final static String accessKeyId = "";
-    private final static String accessKeySecret = "";
+    private final static String accessKeyId = "LTAIrpm1fahqCOsj";
+    private final static String accessKeySecret = "8TziX1zMU5WCD3DX5xcaUPZ9joZ5xY";
     private final static String bucket = "spring-boot-blog";
     private final OSSClient client;
     private static OssUtil ossUtil = new OssUtil();

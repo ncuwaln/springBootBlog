@@ -4,11 +4,14 @@ import com.blog.error.UserDefinedException;
 import com.blog.model.User;
 import com.blog.service.UserService;
 import com.fasterxml.jackson.core.JsonProcessingException;
+import freemarker.template.TemplateException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
+import javax.mail.MessagingException;
+import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.security.NoSuchAlgorithmException;
 import java.util.HashMap;
@@ -37,7 +40,7 @@ public class UserController {
      * @throws NoSuchAlgorithmException
      */
     @RequestMapping(value = "/register", method = RequestMethod.POST)
-    public Map register(String username, String password, String rePassword, String email) throws UserDefinedException, UnsupportedEncodingException, NoSuchAlgorithmException {
+    public Map register(String username, String password, String rePassword, String email) throws UserDefinedException, IOException, NoSuchAlgorithmException, MessagingException, TemplateException, InterruptedException {
         if (!rePassword.equals(password)){
             throw new UserDefinedException("两次输入密码不一致", 400);
         }

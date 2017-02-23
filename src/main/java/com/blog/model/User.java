@@ -13,6 +13,8 @@ public class User {
     private String username;
     private String hashPassword;
     private String email;
+    private Integer active;
+    private String md5;
 
     public User(){}
 
@@ -58,5 +60,23 @@ public class User {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    @Column(name = "active", nullable = false)
+    public Integer getActive() {
+        return active;
+    }
+
+    public void setActive(Integer active) {
+        this.active = active;
+    }
+
+    @Column(name = "md5", nullable = false, unique = true)
+    public String getMd5() {
+        return md5;
+    }
+
+    public void setMd5(String md5) {
+        this.md5 = md5;
     }
 }
