@@ -88,4 +88,7 @@ public class UserService {
         return m;
     }
 
+    public void active(Integer id){
+        userRepository.active(id);
+    }
 }

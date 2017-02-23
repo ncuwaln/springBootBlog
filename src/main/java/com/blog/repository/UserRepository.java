@@ -26,4 +26,7 @@ public interface UserRepository extends CrudRepository<User, Integer> {
 
     @Query("select u from User u where u.username like :username escape '/'")
     public List<User> findUserByKeywords(@Param("username") String username);
+
+    @Query("update u from User set u.md5=null, u.active=1 where u.id=:id")
+    public void active(@Param("id") Integer id);
 }

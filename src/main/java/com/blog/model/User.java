@@ -71,7 +71,7 @@ public class User {
         this.active = active;
     }
 
-    @Column(name = "md5", nullable = false, unique = true)
+    @Column(name = "md5")
     public String getMd5() {
         return md5;
     }
