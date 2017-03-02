@@ -4,12 +4,14 @@ import com.blog.model.Blog;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.query.Param;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
 /**
  * Created by Administrator on 2017/2/12.
  */
+@Repository
 public interface BlogRepository extends CrudRepository<Blog, Integer>{
 
     @Query("select b from Blog b where b.title like :title escape '/'")

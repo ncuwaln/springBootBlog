@@ -29,12 +29,12 @@ public class TestUserService {
 
     @Test
     public void test() throws UserDefinedException, IOException, NoSuchAlgorithmException, MessagingException, TemplateException, InterruptedException {
-        long start = System.currentTimeMillis();
+//        long start = System.currentTimeMillis();
         userService.addUser(new User("stcode", "tjq980303", "2963103258@qq.com"));
         User u = userService.findUserByUsername("stcode");
         System.out.println(u.getHashPassword());
-        long end = System.currentTimeMillis();
-        System.out.println(end - start);
+//        long end = System.currentTimeMillis();
+//        System.out.println(end - start);
     }
 
 }

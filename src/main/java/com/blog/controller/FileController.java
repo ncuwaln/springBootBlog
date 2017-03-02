@@ -24,7 +24,7 @@ public class FileController {
     @Autowired
     private FileService fileService;
 
-    private static ArrayList<String> acceptFileType = new ArrayList<String>();
+    private final static String[] acceptFileType = {"jpg", "png", "bmp", "gif", "jpeg"};
 
     /**
      *
@@ -44,7 +44,13 @@ public class FileController {
         }
         String filename = file.getName();
         String type = filename.split(".")[1];
-        if (!acceptFileType.contains(type)){
+        boolean accept = false;
+        for (String x:acceptFileType){
+            if (type.equals(x)){
+                accept = true;
+            }
+        }
+        if (!accept){
             throw new UserDefinedException("不允许的文件类型", 403);
         }
         Claims claims = JwtUtil.parseJWT(token);

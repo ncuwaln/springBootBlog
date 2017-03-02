@@ -19,8 +19,8 @@ import java.io.File;
 
 @EnableTransactionManagement
 @SpringBootApplication
-@EnableJpaRepositories(basePackages="com.blog.repository")
-@EntityScan(basePackages = {"com.blog.model"})
+//@EnableJpaRepositories(basePackages="com.blog.repository")
+//@EntityScan(basePackages = {"com.blog.model"})
 public class Application {
     public static void main(String[] args){
         SpringApplication.run(Application.class, args);

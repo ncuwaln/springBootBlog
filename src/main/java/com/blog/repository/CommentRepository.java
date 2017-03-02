@@ -5,6 +5,7 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
@@ -12,7 +13,7 @@ import java.util.List;
  * Created by Administrator on 2017/2/21.
  */
 
-@Component
+@Repository
 public interface CommentRepository extends CrudRepository<Comment, Integer>{
 
     @Query("select c from Comment c where c.blog_id=:blog_id")
